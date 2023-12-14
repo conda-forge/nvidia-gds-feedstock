@@ -1,4 +1,4 @@
-{% set version = "12.0.0" %}
+{% set version = "12.1.1" %}
 
 package:
   name: nvidia-gds
@@ -14,10 +14,10 @@ build:
 
 requirements:
   run:
-    - libcufile 1.5.0.59
-    - libcufile-dev 1.5.0.59
-    - libcufile-static 1.5.0.59
-    - gds-tools 1.5.0.59
+    - libcufile 1.6.1.9
+    - libcufile-dev 1.6.1.9
+    - libcufile-static 1.6.1.9
+    - gds-tools 1.6.1.9
 
 test:
   commands:
@@ -35,4 +35,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - adibbley
+    - conda-forge/cuda
