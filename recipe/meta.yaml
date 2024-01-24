@@ -1,4 +1,4 @@
-{% set version = "12.2.2" %}
+{% set version = "12.3.2" %}
 
 package:
   name: nvidia-gds
@@ -14,10 +14,10 @@ build:
 
 requirements:
   run:
-    - libcufile 1.7.2.10
-    - libcufile-dev 1.7.2.10
-    - libcufile-static 1.7.2.10
-    - gds-tools 1.7.2.10
+    - libcufile 1.8.1.2
+    - libcufile-dev 1.8.1.2
+    - libcufile-static 1.8.1.2
+    - gds-tools 1.8.1.2
 
 test:
   commands:
