@@ -176,6 +176,3 @@ Feedstock Maintainers
 
 * [@conda-forge/cuda](https://github.com/conda-forge/cuda/)
 
-
-<!-- dummy commit to enable rerendering -->
-
