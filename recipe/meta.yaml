@@ -10,10 +10,11 @@ source:
 
 build:
   number: 0
-  skip: true  # [not (linux64 or aarch64)]
+  noarch: generic
 
 requirements:
   run:
+    - __linux
     - libcufile 1.10.1.7
     - libcufile-dev 1.10.1.7
     - libcufile-static 1.10.1.7
